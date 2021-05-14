@@ -13,10 +13,10 @@
 }
 
 .btn:hover {
-  background-color: #065e81;
+  opacity: 0.85;
 }
 .btn-blue {
-  background-color: #0c78a3;
+  background: linear-gradient(#5ac2eb, #064681);
   border: 0;
   outline: 0;
 }
