@@ -3,10 +3,6 @@
   padding: 0;
   margin: 0;
 }
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
 /* General styles */
 body {
   font-family: "Raleway", sans-serif;
@@ -42,7 +38,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(10deg, #5ac2eb, #064681);
+  background-color:#065e81;
   opacity: 0.95;
   z-index: 1;
 }
@@ -71,12 +67,8 @@ img {
 }
 /* Showcase */
 .hero {
-  background: linear-gradient(rgba(90, 194, 235, 0.5), rgba(6, 70, 129, 0.8)), url("../img/Outside-hotel.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
-  color: #f9f9f9;
+  color: #333;
 }
 .hero .content {
   position: relative;
@@ -95,42 +87,10 @@ img {
   position: absolute;
   top: 80%;
   font-size: 3rem;
-  color: #f9f9f9;
+  color: #333;
 }
 main {
   min-height: calc(100vh - 200px);
-}
-/* Icons */
-.icons {
-  padding: 60px;
-}
-.icons h3 {
-  margin: 30px;
-}
-.icon {
-  color: #065e81;
-  font-size: 30px;
-}
-/* News */
-.news {
-  padding: 50px 10px;
-}
-.news h2 {
-  font-size: 40px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #cccccc;
-}
-.user {
-  color: #065e81;
-}
-.news .author {
-  margin-bottom: 30px;
-}
-.news img {
-  float: left;
-  padding-right: 20px;
-  width: 300px;
 }
 /* Form */
 form {
@@ -164,16 +124,13 @@ form textarea {
 form button {
   font-family: inherit;
   font-size: 1em;
-  background: linear-gradient(#5ac2eb, #064681);
+  background-color: #065e81;
   color: #f9f9f9;
   border: 0;
   outline: 0;
   cursor: pointer;
   border-radius: 5px;
   padding: 10px;
-}
-form button:hover {
-  opacity: 0.85;
 }
 /* Footer */
 .footer {
@@ -188,12 +145,9 @@ form button:hover {
   font-size: 13px;
 }
 .social-icons a {
-  color: #065e81;
+  color: #333;
   font-size: 30px;
   cursor: pointer;
-}
-.social-icons a:hover {
-  opacity: 0.80;
 }
 .footer .social-icons > * {
   margin-right: 15px;
@@ -210,9 +164,6 @@ form button:hover {
   .navbar-list {
     overflow: hidden;
     max-height: 0;
-    -moz-transition: max-height 450ms ease-in-out;
-    -webkit-transition: max-height 450ms ease-in-out;
-    transition: max-height 450ms ease-in-out;
     flex-direction: column;
     align-items: center;
 }

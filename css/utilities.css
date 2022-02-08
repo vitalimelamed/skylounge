@@ -11,12 +11,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
-.btn:hover {
-  opacity: 0.85;
-}
 .btn-blue {
-  background: linear-gradient(#5ac2eb, #064681);
+  background-color: #065e81;
   border: 0;
   outline: 0;
 }
