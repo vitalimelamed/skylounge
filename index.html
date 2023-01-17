@@ -4,9 +4,6 @@
     <title>Skylounge</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -14,11 +11,10 @@
   <body>
     <!-- Header -->
     <header class="hero">
-        <i class="bi bi-list navbar-toggle" aria-label="navbar toggle"></i>
+        <button class="navbar-toggle" aria-label="navbar toggle"></button>
       <nav class="navbar">
-        <a href="#" class="navbar-brand">Skylounge</a>
+        <div class="navbar-brand">Skylounge</div>
           <ul class="navbar-list">
-            <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
             <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
             <li class="navbar-item"><a href="#gallery" class="navbar-link">Gallery</a></li>
             <li class="navbar-item"><a href="#team" class="navbar-link">Team</a></li>
@@ -26,8 +22,7 @@
           </ul>
       </nav>
       <div class="content">
-        <h1>Reach to the sky</h1>
-        <a href="#about" class="link"><i class="bi bi-chevron-down"></i></a>
+        <h1>Skylounge</h1>
       </div>
     </header>
     <!-- / Header -->
@@ -35,14 +30,13 @@
       <!-- About section -->
       <section id="about" class="flex-columns">
         <div class="row">
-          <div class="column">
-            <div class="column-1"><img src="img/Hotel-lobby.jpg" alt="Hotel lobby" /></div>
+          <div class="column bg-light">
+            <div style="text-align: center; padding: 2em 0;"><h2>About</h2></div>
+            <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/narsil63/clczmd5qp000014pliryl9acz.html?title=false&access_token=pk.eyJ1IjoibmFyc2lsNjMiLCJhIjoiY2xjemtkODlyMHU2NDN1b2Q1YWFiZnFveiJ9.ywo0WwZG3V1RXLuQAgOz3Q&zoomwheel=false#8.92/-37.9782/145.0443" title="Map of Melbourne" style="border:0;"></iframe>
           </div>
           <div class="column">
-            <div class="column-2 bg-light">
-              <h2>About</h2>
-              <p>A Hotel based in Melbourne, Australia. Enjoy amazing comfort and service we offer to our guests.</p>
-              <a href="#" class="btn btn-blue">About us</a>
+            <div class="column-1">
+              <div class="column-1"><img src="img/gallery.jpg" alt="" /></div>
             </div>
           </div>
         </div>
@@ -50,51 +44,45 @@
       <!-- / About section -->
       <!-- Gallery section -->
       <section id="gallery" class="gallery flex-grid section-padding">
-        <header class="section-header">
+        <div class="section-header">
           <h2>Gallery</h2>
-          <p>Browse some of the views of our great facilities we offer to our guests.</p>
-        </header>
+        </div>
         <div class="row">
           <div class="column">
-            <a href="img/Outside-swimming-pool.jpg" data-lightbox="gallery" data-title="Outside swimming pool"><img src="img/Outside-swimming-pool.jpg" alt="Outside swimming pool" /></a>
-            <a href="img/Inside-swimming-pool.jpg" data-lightbox="gallery" data-title="Inside swimming pool"><img src="img/Inside-swimming-pool.jpg" alt="Inside swimming pool" /></a>
+            <a href="img/gallery.jpg" data-lightbox="gallery" data-title=""><img src="img/gallery.jpg" alt="" /></a>
           </div>
           <div class="column">
-            <a href="img/Inside-sauna.jpg" data-lightbox="gallery" data-title="Inside sauna"><img src="img/Inside-sauna.jpg" alt="Inside sauna" /></a>
-            <a href="img/Inside-hotel.jpg" data-lightbox="gallery" data-title="Inside hotel"><img src="img/Inside-hotel.jpg" alt="Inside hotel" /></a>
+            <a href="img/gallery.jpg" data-lightbox="gallery" data-title=""><img src="img/gallery.jpg" alt="" /></a>
           </div>
           <div class="column">
-            <a href="img/Inside-corridor.jpg" data-lightbox="gallery" data-title="Inside corridor"><img src="img/Inside-corridor.jpg" alt="Inside corridor" /></a>
-            <a href="img/Inside-dining.jpg" data-lightbox="gallery" data-title="Inside dining"><img src="img/Inside-dining.jpg" alt="Inside dining" /></a>
+            <a href="img/gallery.jpg" data-lightbox="gallery" data-title=""><img src="img/gallery.jpg" alt="" /></a>
           </div>
           <div class="column">
-            <a href="img/Outside-hotel.jpg" data-lightbox="gallery" data-title="Outside hotel"><img src="img/Outside-hotel.jpg" alt="Outside hotel" /></a>
-            <a href="img/Inside-gym.jpg" data-lightbox="gallery" data-title="Inside gym"><img src="img/Inside-gym.jpg" alt="Inside gym" /></a>
+            <a href="img/gallery.jpg" data-lightbox="gallery" data-title=""><img src="img/gallery.jpg" alt="" /></a>
           </div>
         </div>
       </section>
       <!-- / Gallery section -->
       <!-- Team section -->
       <section id="team" class="team section-padding">
-        <header class="section-header">
+        <div class="section-header">
           <h2>Team</h2>
-          <p>Meet the team</p>
-        </header>
+        </div>
         <div class="flex-items">
           <div>
-            <img src="img/General-manager.jpg" alt="General manager" />
-            <h4>John Doe</h4>
-            <p>General manager</p>
+            <img src="img/team.jpg" alt="" />
+            <h3>Person name</h3>
+            <p>Person role</p>
           </div>
           <div>
-            <img src="img/Hotel-manager.jpg" alt="Hotel manager" />
-            <h4>Jane Doe</h4>
-            <p>Hotel manager</p>
+            <img src="img/team.jpg" alt="" />
+            <h3>Person name</h3>
+            <p>Person role</p>
           </div>
           <div>
-            <img src="img/Sales-manager.jpg" alt="Sales manager" />
-            <h4>Frank Doe</h4>
-            <p>Sales manager</p>
+            <img src="img/team.jpg" alt="" />
+            <h3>Person name</h3>
+            <p>Person role</p>
           </div>
         </div>
       </section>
@@ -103,20 +91,19 @@
       <section id="contact" class="flex-columns">
         <div class="row">
           <div class="column">
-            <div class="column-1"><img src="img/Laptop-on-desk.jpg" alt="Laptop on desk" /></div>
+            <div class="column-1"><img src="img/gallery.jpg" alt="" /></div>
           </div>
           <div class="column">
             <div class="column-2">
               <h2>Contact</h2>
-              <p>Fill out the form to book your stay.</p>
               <form>
-                <label for="name">Name</label> 
+                <label for="name">Name</label>
                 <input type="text" id="name">
                 <label for="email">Email</label>
                 <input type="email" id="email">
                 <label for="message">Message</label>
                 <textarea id="message"></textarea>
-                <button type="button">Send message</button>
+                <button type="button">Button</button>
               </form>
             </div>
           </div>
@@ -126,12 +113,7 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="social-icons">
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="#"><i class="bi bi-twitter"></i></a>
-        <a href="#"><i class="bi bi-youtube"></i></a>
-      </div>
-      <p>&copy; 2020</p>
+      <p>&copy; Skylounge</p>
     </footer>
     <!-- / Footer -->
     <script src="js/jquery-3.5.1.min.js"></script>
